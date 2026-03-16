@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/selenium-maven-jenkins.git'
+                git 'https://github.com/lokesh0079/selenium-maven-jenkins.git'
             }
         }
 
@@ -25,6 +25,5 @@ pipeline {
                 bat 'mvn test'
             }
         }
-
     }
 }
